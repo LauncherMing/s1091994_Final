@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "Exam";
+}
+<p>姓名:黃明聖</p>
+<p>學號:410919946</p>
+@{
+    String[] fruits = { "蘋果", "香蕉", "荔枝", "鳳梨", "西瓜" };
+}
+@for (int i = 0; i < fruits.Length; i++)
+{
+<p>@i:@fruits[i]</p>
+}
